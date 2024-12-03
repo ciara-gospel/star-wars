@@ -1,0 +1,59 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #787272;
+}
+
+.head {
+  display: grid;
+  grid-template-columns: 2fr 2fr 2fr;
+  gap: 10px;
+  padding-top: 2rem;
+  padding: 1rem;
+}
+
+.read1 {
+  background-color: #286f28;
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.read2 {
+  background-color: #842727;
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.read3 {
+  background-color: #9b9b0d;
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.read4 {
+  background-color: #286f28;
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.read5 {
+  background-color: #842727;
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+.read6 {
+  background-color: #9b9b0d;
+  color: white;
+  text-align: center;
+  padding-top: 1rem;
+}
