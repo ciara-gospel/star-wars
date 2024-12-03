@@ -1,6 +1,6 @@
-fetch(`https://www.swapi.tech/api/films`)
+fetch('https://www.swapi.tech/api/films')
   .then((res) => {
-      return res.json()
+    return res.json()
   })
   .then(data => {
     console.log(data)
@@ -17,4 +17,4 @@ fetch(`https://www.swapi.tech/api/films`)
     title4.innerHTML = `film name: ${data.result[3].properties.title}`
     title5.innerHTML = `film name: ${data.result[4].properties.title}`
     title6.innerHTML = `film name: ${data.result[5].properties.title}`
-  });
+  })
